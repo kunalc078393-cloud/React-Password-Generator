@@ -28,16 +28,9 @@ It lets you generate secure random passwords with customizable options such as l
 ```bash
 git clone https://github.com/your-username/react-password-generator.git
 cd react-password-generator
-
----
-
-## ⚡ Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/react-password-generator.git
-cd react-password-generator
 ```
+
+
 ### 2. Install dependencies
 ```bash
 npm install
