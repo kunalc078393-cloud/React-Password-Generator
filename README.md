@@ -1,16 +1,65 @@
-# React + Vite
+# 🔐 React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight password generator built using **React**.  
+It lets you generate secure random passwords with customizable options such as length, numbers, and special characters. You can easily copy the generated password to your clipboard with a single click.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- Generate random passwords instantly
+- Adjustable password length (1–100 characters)
+- Option to include numbers and special characters
+- Copy-to-clipboard functionality
+- Clean and responsive UI with Tailwind CSS
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **React** (Hooks: useState, useEffect, useCallback, useRef)
+- **Tailwind CSS** for styling
+- **JavaScript** for logic
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/react-password-generator.git
+cd react-password-generator
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/react-password-generator.git
+cd react-password-generator
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the app
+```bash
+npm run dev
+```
+
+The app will be available at http://localhost:3000.
+
+📋 Usage
+- Adjust the slider to set password length.
+- Toggle checkboxes to allow numbers and/or special characters.
+- Click Generate (auto-refreshes on changes).
+- Copy the password using the Copy button.
+
+
+
+
+
+
+
+
